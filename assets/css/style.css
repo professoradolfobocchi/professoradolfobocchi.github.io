@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {   
+    background: url('../images/bg.gif') repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
 .content {
     display: flex;
     width: 100vw;
@@ -13,6 +19,7 @@
 }
 
 .card--area {
+    background: white;
     width: 800px;
     height: 400px;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
